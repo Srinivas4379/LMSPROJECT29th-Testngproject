@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite">
+
+<test name="Resgression Test">
+<parameter name="username" value="admin"/>
+<parameter name="password" value="admin123"/>
+<classes>
+
+<class name="mouse_project.Hover_mouse"></class>
+
+
+
+</classes>
+
+
+
+
+</test>
+
+
+
+</suite>

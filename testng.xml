@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Regression suite">
+
+<test name="Regression test">
+<classes>
+
+
+<class name="testngpc.NG"></class>
+<class name="testngpc.NG2"></class>
+
+
+</classes>
+
+</test>
+
+<test name = "Regression test2">
+
+<classes>
+<class name ="testngpc.copy.NG"></class>
+<class name ="testngpc.copy.NG2"></class>
+
+
+</classes>
+
+
+</test>
+
+
+
+</suite>
